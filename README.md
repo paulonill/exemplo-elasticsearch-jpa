@@ -30,4 +30,4 @@ $ docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.el
 ** Para mais detalhe de configuração do elasticsearch acesse https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker
 
 ### Serviços do projeto
-* Os serviços podem ser acessados atraves do endereço http://localhost:8080/swagger-ui.html
+* Os serviços podem ser acessados através do endereço http://localhost:8080/swagger-ui.html
