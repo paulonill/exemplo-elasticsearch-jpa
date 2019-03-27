@@ -50,7 +50,7 @@ public class ProdutoService {
 
         repository.deleteById(id);
 
-        elasticRepository.existsById(id);
+        elasticRepository.deleteById(id);
     }
 
     public Produto pesquisarPorId(final Long id) {
