@@ -55,8 +55,6 @@ public class ProdutoService {
 
     public Produto pesquisarPorId(final Long id) {
 
-        //System.out.println("Produto: " + elasticRepository.findById(id).orElseThrow(() -> new EmptyResultDataAccessException(1)));
-
         System.out.println("Produto: " + repository.findById(id).orElseThrow(() -> new EmptyResultDataAccessException(1)));
 
         return elasticRepository.findById(id).orElseThrow(() -> new EmptyResultDataAccessException(1));
